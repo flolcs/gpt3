@@ -83,35 +83,35 @@
   background-color: var(--color3);
   transform: translateY(-10px);
   position: relative;
-  height: 35vh;
+  height: 50vh;
   padding-left: 5%;
   padding-top: 5%;
 }
 .blog2-container {
   background-color: var(--color3);
   transform: translateY(-5px);
-  height: 12vh;
+  height: 20vh;
   padding-left: 5%;
   padding-top: 5%;
 }
 .blog3-container {
   background-color: var(--color3);
   transform: translateY(-5px);
-  height: 12vh;
+  height: 20vh;
   padding-left: 5%;
   padding-top: 5%;
 }
 .blog4-container {
   background-color: var(--color3);
   transform: translateY(-5px);
-  height: 12vh;
+  height: 20vh;
   padding-left: 5%;
   padding-top: 5%;
 }
 .blog5-container {
   background-color: var(--color3);
   transform: translateY(-5px);
-  height: 12vh;
+  height: 20vh;
   padding-left: 5%;
   padding-top: 5%;
 }
@@ -135,4 +135,13 @@
 #image-blog05 {
   width: 100%;
   height: auto;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  #small-text {
+    font-size: 10px;
+  }
+  #medium-text {
+    font-size: 16px;
+  }
 }

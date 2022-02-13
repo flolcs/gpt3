@@ -125,4 +125,12 @@ h5::before {
   h3 {
     padding-top: 5vh;
   }
+  .feature1-1 {
+    grid-column: 1;
+    grid-row: 1 / 5;
+  }
+  .feature1-2 {
+    grid-column: 1;
+    grid-row: 3;
+  }
 }

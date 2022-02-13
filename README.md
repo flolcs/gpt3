@@ -1,4 +1,4 @@
-# gpt3 "HTML and CSS training project with responsive without using Bootstrap"
+gpt3 "HTML and CSS training project with responsive without using Bootstrap"
 
 ## To do
 

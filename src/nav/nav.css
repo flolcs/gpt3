@@ -267,6 +267,7 @@ li {
   #menu {
     width: 30px;
     height: 30px;
+    cursor: pointer;
   }
   li {
     line-height: 30px;
@@ -329,7 +330,9 @@ li {
   #menu {
     width: 30px;
     height: 30px;
+    cursor: pointer;
   }
+
   li {
     line-height: 30px;
   }
@@ -385,6 +388,7 @@ li {
   #menu {
     width: 30px;
     height: 30px;
+    cursor: pointer;
   }
   li {
     line-height: 30px;

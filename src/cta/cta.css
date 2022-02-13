@@ -96,3 +96,22 @@
     align-self: center;
   }
 }
+@media (min-width: 425px) and (max-width: 767px) {
+  .cta {
+    height: 15vh;
+  }
+  .cta-smale {
+    font-size: 10px;
+    line-height: 20px;
+  }
+  .cta-big {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .cta-button {
+    height: 5vh;
+    align-self: center;
+    width: 120%;
+    font-size: 14px;
+  }
+}

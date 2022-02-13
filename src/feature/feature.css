@@ -156,3 +156,31 @@ h5::before {
     margin-top: 15vh;
   }
 }
+@media (min-width: 425px) and (max-width: 767px) {
+  h3 {
+    padding-top: 5vh;
+    font-size: 16px;
+  }
+  #request {
+    font-size: 12px;
+  }
+  .feature1-1 {
+    grid-column: 1;
+    grid-row: 1 / 5;
+  }
+  .feature1-2 {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .feature-1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    row-gap: 50px;
+    column-gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+    margin-top: 15vh;
+  }
+  #possibility {
+    width: 90%;
+  }
+}

@@ -24,7 +24,6 @@
   grid-template-columns: 1fr 1fr 1fr;
   row-gap: 50px;
   column-gap: 150px;
-  grid-auto-rows: minmax(100px, auto);
 }
 
 .gpt3-one {
@@ -133,4 +132,18 @@ h3 {
   top: 0;
   opacity: 1;
   transition: 0s;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .compagnies {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .whatisgpt3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 50px;
+    column-gap: 50px;
+  }
 }

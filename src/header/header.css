@@ -122,7 +122,7 @@ h1 {
 }
 
 #texte-people {
-  width: 581.92px;
+  width: 450px;
   height: 37.61px;
   font-weight: 500;
   font-size: 12px;
@@ -159,5 +159,25 @@ input::placeholder {
   }
   #email {
     display: flex;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  h1 {
+    padding-top: 5vh;
+    font-size: 42px;
+  }
+  .header-content {
+    width: 60%;
+  }
+  .header-illustration {
+    width: 100%;
+  }
+  #email {
+    display: flex;
+  }
+  #ai {
+    transform: translateY(-5vh);
+    width: 90%;
   }
 }

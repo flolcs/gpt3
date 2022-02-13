@@ -134,3 +134,25 @@ h5::before {
     grid-row: 3;
   }
 }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  h3 {
+    padding-top: 5vh;
+  }
+  .feature1-1 {
+    grid-column: 1;
+    grid-row: 1 / 5;
+  }
+  .feature1-2 {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .feature-1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    row-gap: 50px;
+    column-gap: 50px;
+    grid-auto-rows: minmax(100px, auto);
+    margin-top: 15vh;
+  }
+}

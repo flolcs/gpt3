@@ -86,3 +86,13 @@
   opacity: 1;
   transition: 0s;
 }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .cta {
+    height: 20vh;
+  }
+  .cta-button {
+    height: 10vh;
+    align-self: center;
+  }
+}

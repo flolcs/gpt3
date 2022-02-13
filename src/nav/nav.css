@@ -195,11 +195,19 @@ li {
     width: 35%;
   }
   #sign-in {
-    height: 45px;
-    width: 120px;
+    height: 35px;
+    width: 80px;
+    font-size: 14px;
   }
   #sign-up {
-    height: 45px;
-    width: 120px;
+    height: 35px;
+    width: 80px;
+    font-size: 14px;
+  }
+  a {
+    font-size: 14px;
+  }
+  .navbar {
+    width: 38%;
   }
 }

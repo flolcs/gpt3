@@ -1,9 +1,8 @@
-# gpt3
+# gpt3 "HTML and CSS training project with responsive without using Bootstrap"
 
-## HTML and CSS training project with responsive without using Bootstrap
+##To do
 
-### To do
-Adding JS and animation
-Fixe button Explore The Library
+### Adding JS and animation
+### Fixe button Explore The Library
 Fixe font size h2
 Fixe button Get Started

@@ -214,6 +214,12 @@ li {
   .navbar {
     width: 38%;
   }
+  a::before {
+    display: none;
+  }
+  #sign-up:hover {
+    background-color: var(--color2);
+  }
 }
 
 @media (min-width: 425px) and (max-width: 767px) {
@@ -233,6 +239,124 @@ li {
     height: 35px;
     width: 80px;
     font-size: 14px;
+  }
+  #sign-up:hover {
+    background-color: var(--color2);
+  }
+  a {
+    font-size: 14px;
+  }
+  .conteneur-nav {
+    display: block;
+  }
+  nav ul {
+    display: none;
+    list-style-type: none;
+  }
+  nav input[type="checkbox"]:checked + ul {
+    display: flex;
+    flex-flow: column;
+    height: 20vh;
+  }
+  nav input[type="checkbox"] {
+    display: none;
+  }
+  label {
+    position: sticky;
+  }
+  #menu {
+    width: 30px;
+    height: 30px;
+  }
+  li {
+    line-height: 30px;
+  }
+  nav {
+    align-items: flex-start;
+  }
+  a::before {
+    display: none;
+  }
+  #sign-up:hover {
+    background-color: var(--color2);
+  }
+}
+@media (min-width: 375px) and (max-width: 424px) {
+  .navbar {
+    padding-right: 15%;
+    width: 35%;
+    display: none;
+  }
+  #sign-in {
+    height: 35px;
+    width: 80px;
+    font-size: 14px;
+    background-color: var(--color3);
+    border-radius: 5px;
+  }
+  #sign-up {
+    height: 35px;
+    width: 80px;
+    font-size: 14px;
+  }
+  a::before {
+    display: none;
+  }
+  #sign-up:hover {
+    background-color: var(--color2);
+  }
+  a {
+    font-size: 14px;
+  }
+  .conteneur-nav {
+    display: block;
+  }
+  nav ul {
+    display: none;
+    list-style-type: none;
+  }
+  nav input[type="checkbox"]:checked + ul {
+    display: flex;
+    flex-flow: column;
+    height: 20vh;
+  }
+  nav input[type="checkbox"] {
+    display: none;
+  }
+  label {
+    position: sticky;
+  }
+  #menu {
+    width: 30px;
+    height: 30px;
+  }
+  li {
+    line-height: 30px;
+  }
+  nav {
+    align-items: flex-start;
+  }
+}
+@media (min-width: 320px) and (max-width: 374px) {
+  .navbar {
+    padding-right: 15%;
+    width: 35%;
+    display: none;
+  }
+  #sign-in {
+    height: 30px;
+    width: 60px;
+    font-size: 14px;
+    background-color: var(--color3);
+    border-radius: 5px;
+  }
+  #sign-up {
+    height: 30px;
+    width: 60px;
+    font-size: 14px;
+  }
+  a::before {
+    display: none;
   }
   #sign-up:hover {
     background-color: var(--color2);

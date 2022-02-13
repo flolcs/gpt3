@@ -72,6 +72,7 @@
   cursor: pointer;
   border-bottom: 0.1rem solid var(--color1);
   position: relative;
+  margin-top: 5vh;
 }
 
 #request:hover {
@@ -157,6 +158,62 @@ h5::before {
   }
 }
 @media (min-width: 425px) and (max-width: 767px) {
+  h3 {
+    padding-top: 5vh;
+    font-size: 16px;
+  }
+  #request {
+    font-size: 12px;
+  }
+  .feature1-1 {
+    grid-column: 1;
+    grid-row: 1 / 5;
+  }
+  .feature1-2 {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .feature-1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    row-gap: 50px;
+    column-gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+    margin-top: 15vh;
+  }
+  #possibility {
+    width: 90%;
+  }
+}
+@media (min-width: 375px) and (max-width: 424px) {
+  h3 {
+    padding-top: 5vh;
+    font-size: 16px;
+  }
+  #request {
+    font-size: 12px;
+  }
+  .feature1-1 {
+    grid-column: 1;
+    grid-row: 1 / 5;
+  }
+  .feature1-2 {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .feature-1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    row-gap: 50px;
+    column-gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+    margin-top: 15vh;
+  }
+  #possibility {
+    width: 90%;
+  }
+}
+@media (min-width: 320px) and (max-width: 374px) {
   h3 {
     padding-top: 5vh;
     font-size: 16px;

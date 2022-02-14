@@ -176,7 +176,7 @@ h3 {
     border-bottom-right-radius: none;
   }
   h2 {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 40px;
   }
   h3 {
@@ -223,7 +223,7 @@ h3 {
     border-bottom-right-radius: none;
   }
   h2 {
-    font-size: 18px;
+    font-size: 14px;
     line-height: 40px;
   }
   h3 {
@@ -264,13 +264,13 @@ h3 {
   #explore {
     height: 20px;
     width: 150px;
-    font-size: 12px;
+    font-size: 10px;
     border-bottom: none;
     border-right: none;
     border-bottom-right-radius: none;
   }
   h2 {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 40px;
   }
   h3 {

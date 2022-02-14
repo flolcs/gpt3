@@ -397,3 +397,11 @@ li {
     align-items: flex-start;
   }
 }
+@media screen and (max-device-width: 1280px) and (orientation: landscape) {
+  a::before {
+    display: none;
+  }
+  #sign-up:hover {
+    background-color: var(--color2);
+  }
+}
